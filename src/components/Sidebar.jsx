@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <aside className="col-span-1 bg-blue-900 text-white p-4 rounded-2xl shadow-md">
       <div className="flex flex-col items-center mb-8">
-        <img src={Foto} alt="Pfofil"></img>
+        <img className="w-50 h-50 rounded-3xl" src={Foto} alt="Pfofil"></img>
       </div>
       <div className="mb-6">
         <h2 className="text-lg font-semibold mb-2">📌 КОНТАКТЫ</h2>
